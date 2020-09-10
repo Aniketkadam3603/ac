@@ -1,0 +1,144 @@
+.Top-container {
+  position: relative;
+  padding-top: 100px;
+  background-color: #EAF6F6;
+}
+.contact-me{
+ margin: 50px auto 50px auto;
+}
+.img{
+  padding-top: 30px;
+}
+hr{
+  border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+}
+
+p{
+  line-height: 2;
+}
+.par{
+  width: 30%;
+  margin: auto;
+}
+body {
+  color: #40514E;
+  font-weight: bold;
+  background-color: #f4f6ff;
+  margin: 0;
+  text-align: center;/*we can also use this to centerized the element
+                      = margin: 0 auto 0 auto;
+                      */
+font-family: 'Merriweather Sans', sans-serif;
+}
+a{
+font-family: 'Merriweather Sans', sans-serif;
+margin: 20px;
+text-decoration: none;
+}
+a:hover{
+  color: #ff4b5c;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.anime{
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+.games{
+  width: 25%;
+    float: left;
+  margin-right: 30px;
+}
+.education{
+float: right;
+margin-right: 30px;
+}
+.ankr{
+  color: #11999E;
+}
+.bottom-container{
+  padding: 50px 0 20px;
+  background-color: #66BFBF;
+}
+.foot{
+  font-size: 15px;
+  color: #EAF6F6;
+  padding: 20px 0;
+}
+h1 {
+  color: #66BFBF;
+  font-size: 90px;
+  margin: 0;
+  font-family: 'Sacramento', cursive;
+  line-height: 2;
+}
+h2{
+  color: #66BFBF;
+  font-size: 40px;
+  font-family: 'Lobster', cursive;
+  font-weight: normal;
+  margin: 60px auto 0 auto;
+}
+.h2pad{
+  padding: 60px 0 0 0;
+}
+h3{
+  color: #11999E;
+  font-family: 'Lobster', cursive;
+}
+
+.pro{
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+.bottom-cloud{
+  position: absolute;
+}
+.top-cloud{
+position: absolute;
+right: 25%;
+top: 50px;
+}
+.games-description{
+  clear: left;
+}
+.anime-description{
+  clear: left;
+}
+
+.myButton {
+  width: 150px;
+    height: 30px;
+    font-size: 25px;
+	box-shadow: 0px 1px 0px 0px #94c9e0;
+	background:linear-gradient(to bottom, #eaf6f6 5%, #bbf0f0 100%);
+	background-color:#eaf6f6;
+	border-radius:6px;
+	border:1px solid #46a1d9;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+font-family: 'Merriweather Sans', sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #d4d8e6;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #bbf0f0 5%, #eaf6f6 100%);
+	background-color:#bbf0f0;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
